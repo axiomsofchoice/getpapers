@@ -15,7 +15,7 @@ program
     'output directory (required - will be created if ' +
     'not found)')
   .option('--api <name>',
-    'API to search [eupmc, crossref, ieee, arxiv] (default: eupmc)')
+    'API to search [eupmc, crossref, ieee, arxiv, royalsociety] (default: eupmc)')
   .option('-x, --xml',
     'download fulltext XMLs if available')
   .option('-p, --pdf',
